@@ -1,4 +1,12 @@
 document.addEventListener('DOMContentLoaded', function() {
+    // Get logo element
+    const logo = document.querySelector('.logo');
+
+    // Add click event listener to logo for homepage redirection
+    logo.addEventListener('click', function(event) {
+        event.preventDefault(); // Prevent default link behavior
+        window.location.href = '/'; // Redirect to homepage (root URL)
+    });
     // Get all movie listings
     const movieList = document.querySelector('#movies .movie-list');
 
