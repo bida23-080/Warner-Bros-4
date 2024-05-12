@@ -21,7 +21,7 @@ header {
 }
 
 .logo img {
-    width: 100px; /* Set maximum width for the logo */
+    width: 30px; /* Set maximum width for the logo */
     height: auto; /* Maintain aspect ratio */
     display: block; /* Ensure the image is treated as a block element */
 }
