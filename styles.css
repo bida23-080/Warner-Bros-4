@@ -34,7 +34,17 @@ nav {
     width: 100%;
     background-color: #333; /* Dark background color */
     z-index: 1000; /* Ensure the navigation bar stays on top of other content */
-    padding: 10px; /* Add padding to the navigation bar for spacing */
+    padding: 10px; /* Padding around navigation bar */
+    height: 80px; /* Set the navigation bar height */
+}
+
+.logo {
+    margin-right: 20px; /* Add spacing between logo and navigation links */
+}
+
+.logo img {
+    height: 60px; /* Set the height of the logo image */
+    width: auto; /* Allow the logo width to adjust proportionally */
 }
 
 nav ul {
@@ -42,7 +52,7 @@ nav ul {
     margin: 0;
     padding: 0;
     display: flex;
-    justify-content: center;
+    align-items: center; /* Align navigation links vertically centered */
 }
 
 nav ul li {
