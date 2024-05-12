@@ -15,9 +15,34 @@ header {
     align-items: center;
 }
 
+/* Logo styles */
+.logo {
+    padding: 10px; /* Add padding around the logo for spacing */
+}
+
+.logo img {
+    max-width: 150px; /* Set maximum width for the logo */
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Ensure the image is treated as a block element */
+}
+
+/* Navigation bar styles */
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333; /* Dark background color */
+    z-index: 1000; /* Ensure the navigation bar stays on top of other content */
+    padding: 10px; /* Add padding to the navigation bar for spacing */
+}
+
 nav ul {
     list-style-type: none;
+    margin: 0;
+    padding: 0;
     display: flex;
+    justify-content: center;
 }
 
 nav ul li {
@@ -25,10 +50,10 @@ nav ul li {
 }
 
 nav ul li a {
+    color: #fff; /* White text color */
     text-decoration: none;
-    color: #fff;
+    font-size: 1.2em;
 }
-
 .search-form {
     display: flex;
     margin-right: 20px;
